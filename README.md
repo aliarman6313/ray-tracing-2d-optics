@@ -1,15 +1,21 @@
-# 2D Ray Tracing in Optics
+# Ray Tracing 2D - Optics Simulation
 
-This project simulates the path of a light ray hitting the interface between two media with different refractive indices using Snell's Law.
+This is a basic 2D ray tracing simulation using Snell's Law to visualize the behavior of light at the interface of two different optical media.
 
-## Features
-- Calculates refraction or total internal reflection
-- Visualizes incident and refracted rays in 2D
-- Uses Python with matplotlib and numpy
+---
 
-## Example Output
-![Ray Diagram](ray_tracing_2d_output.png)
+## 🔍 Description
 
-## Requirements
+- Simulates the refraction (or total internal reflection) of a light ray across a flat boundary.
+- Uses Snell’s Law to compute the transmitted angle.
+- Visualizes incident and refracted rays in a 2D diagram.
+- Highlights total internal reflection when it occurs.
+
+---
+
+## ⚙️ Dependencies
+
+Install with:
+
 `bash
-pip install numpy matplotlib
+pip install -r requirements.txt
